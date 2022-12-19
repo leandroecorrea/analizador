@@ -1,0 +1,6 @@
+- name: Commit wwwroot to GitHub Pages
+  uses: leandroecorrea/github-pages-deploy-action@3.7.1
+  with:
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    BRANCH: master
+    FOLDER: publish/wwwroot
